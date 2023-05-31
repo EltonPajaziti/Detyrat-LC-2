@@ -36,3 +36,5 @@ int main() {
     
     return 0;
 }
+//Kompleksiteti kohor:O(n^2)
+//Kompleksiteti hapesinor:O(n)
