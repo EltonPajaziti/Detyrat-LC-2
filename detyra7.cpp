@@ -30,3 +30,5 @@ int main(){
 
     return 0;
 }
+//Time:O(n^2)
+//Space: O(n)
