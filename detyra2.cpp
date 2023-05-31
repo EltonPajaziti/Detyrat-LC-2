@@ -32,3 +32,5 @@ int main() {
 
     return 0;
 }
+//Time:O(n)
+//Space:O(n)
