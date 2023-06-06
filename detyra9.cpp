@@ -10,6 +10,19 @@ int missingNumber(vector<int>& nums) {
     int actualSum = accumulate(nums.begin(), nums.end(), 0); // Sum of numbers in the array
     return expectedSum - actualSum;
 }
+/*class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n = nums.size();
+    int sum = (n * (n + 1)) / 2;
+
+    for (int num : nums) {
+        sum -= num;
+    }
+
+    return sum;
+    }
+};*/
 
 int main() {
     vector<int> nums = {9, 6, 4, 2, 3, 5, 7, 0, 1};

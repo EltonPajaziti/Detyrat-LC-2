@@ -29,3 +29,25 @@ int main() {
 }
 //Time: O(n) 
 //Space: O(n) 
+
+
+
+/*class Solution {
+public:
+    int firstUniqChar(string s) {
+            int freq[26] = {0};
+        int index = -1;
+        
+        for (char c : s)
+            freq[c - 'a']++;
+        
+        for (int i = 0; i < s.length(); i++) {
+            if (freq[s[i] - 'a'] == 1) {
+                index = i;
+                break;
+            }
+        }
+        
+        return index;
+    }
+};*/

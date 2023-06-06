@@ -32,3 +32,6 @@ int main() {
 
     return 0;
 }
+//O(1)
+
+//O(1)
